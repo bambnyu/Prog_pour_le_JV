@@ -5,15 +5,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        int N = 15; //definit le nombre de tour de jeu a survivre 
+        int N_init = 15; //definit le nombre de tour de jeu a survivre 
+        int N = 15; 
         Personnage monPerso = new Personnage();
         Ennemi ennemi1 = new Ennemi();
         Allie allie1 = new Allie();
         while (monPerso.getVie() > 0 && N > 0 && ennemi1.getVie() > 0)
         {
-            Console.WriteLine("*****TOUR SUIVANT*****");
-            monPerso.marche();
-            int testattaque_ennemi = ennemi1.attaque(); //tente d'attaquer
+            Console.WriteLine("_______________________");
+            monPerso.marche(N_init,N);
+            int testattaque_ennemi = ennemi1.attaque(); //tente d'attaquer 0=échec  1=réussite
             int testattaque_allie = allie1.attaque(); // tente d'attque
                         
 
@@ -55,11 +56,11 @@ class Program
             ennemi1.incrementerPointAttaque();
             Console.WriteLine("L'ennemi a : " + ennemi1.getPointsAttaque() + " points d'attaque");
             Console.WriteLine("L'allié a : " + allie1.getPointsAttaque() + " points d'attaque");
-            Console.WriteLine("**************");
-            if (testattaque_ennemi == 1) { Console.WriteLine(" L'Ennemi réussi a attaquer"); } 
-            else { Console.WriteLine(" L'Ennemi échoue a attaquer"); }
-            if (testattaque_allie == 1) { Console.WriteLine(" L'allié réussi a attaquer"); }
-            else { Console.WriteLine(" L'allié échoue a attaquer"); }
+            //Console.WriteLine("**************");
+            //if (testattaque_ennemi == 1) { Console.WriteLine(" L'Ennemi réussi a attaquer"); } 
+            //else { Console.WriteLine(" L'Ennemi échoue a attaquer"); }
+            //if (testattaque_allie == 1) { Console.WriteLine(" L'allié réussi a attaquer"); }
+            //else { Console.WriteLine(" L'allié échoue a attaquer"); }
             N = N - 1; // on decremente le nombre de tour
         }
         if (monPerso.getVie() > 0 || N <= 0) { Console.WriteLine("C'est fini. Game Over Vous avez Gagné!"); }
@@ -83,19 +84,16 @@ class Program
         public int attaque()
         { //méthode
             Random aleatoireEnnemi = new Random();
-            int test = aleatoireEnnemi.Next(0, 1);
-            //if ( test == 1) { Console.WriteLine(" L'Ennemi réussi a attaquer: - " + pointsAttaque); } //1 succès   0 échec
-            //else { Console.WriteLine(" L'Ennemi échoue a attaquer: - " + pointsAttaque); }
-            //Console.WriteLine(" J’attaque: - " + pointsAttaque);  //vieux a delete
+            int test = aleatoireEnnemi.Next(0, 2);
             return test;
         }
         public void defend()
         { //méthode
-            Console.WriteLine(" Je me défend ");
+            Console.WriteLine(" L'ennemi se défend ");
         }
         public void incrementerPointAttaque()
         { //méthode
-            Console.WriteLine("Je prépare mon attaque! ");
+            Console.WriteLine("L'ennemi prépare son attaque! ");
             pointsAttaque++;
         }
 
@@ -133,9 +131,12 @@ class Program
             vitesse = 5;
             heal = 15;
         }
-        public void marche()
+        public void marche(int nombre_tour_total, int nombre_tour_actuel)
         { //méthode
             Console.WriteLine(" J’avance");
+            int position = nombre_tour_total - nombre_tour_actuel;
+            string progression = new string('_', position) + "P" + new string('_', nombre_tour_total - position - 1) + "E";
+            Console.WriteLine(progression);
         }
         public void arrete()
         { //méthode
@@ -173,15 +174,12 @@ class Program
         public int attaque()
         { //méthode
             Random aleatoireEnnemi = new Random();
-            int test = aleatoireEnnemi.Next(0, 1);
-            //if (test == 1) { Console.WriteLine(" L'allié réussi a attaquer: - " + pointsAttaque); } //1 succès   0 échec
-            //else { Console.WriteLine(" L'allié échoue a attaquer: - " + pointsAttaque); }
-            //Console.WriteLine(" J’attaque: - " + pointsAttaque);  //vieux a delete
+            int test = aleatoireEnnemi.Next(0, 2);
             return test;
         }
         public void defendPersonnage()
         { //méthode
-            Console.WriteLine(" Je défend ");
+            Console.WriteLine(" Je défend le personnage ");
         }
         public int getVie()
         { //méthode

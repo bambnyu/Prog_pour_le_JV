@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arozen\\Desktop\\Programmation pour le jeu vidéo\\TD1\\TD1_Partie2\\TD1_Partie2\\TD1_Partie2.csproj",
+      "projectUniqueName": "C:\\Users\\arozen\\Desktop\\Programmation pour le jeu vidéo\\Prog_pour_le_JV\\TD1\\TD1_Partie2\\TD1_Partie2\\TD1_Partie2.csproj",
       "projectName": "TD1_Partie2",
-      "projectPath": "C:\\Users\\arozen\\Desktop\\Programmation pour le jeu vidéo\\TD1\\TD1_Partie2\\TD1_Partie2\\TD1_Partie2.csproj",
+      "projectPath": "C:\\Users\\arozen\\Desktop\\Programmation pour le jeu vidéo\\Prog_pour_le_JV\\TD1\\TD1_Partie2\\TD1_Partie2\\TD1_Partie2.csproj",
       "packagesPath": "C:\\Users\\arozen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arozen\\Desktop\\Programmation pour le jeu vidéo\\TD1\\TD1_Partie2\\TD1_Partie2\\obj\\",
+      "outputPath": "C:\\Users\\arozen\\Desktop\\Programmation pour le jeu vidéo\\Prog_pour_le_JV\\TD1\\TD1_Partie2\\TD1_Partie2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arozen\\AppData\\Roaming\\NuGet\\NuGet.Config",

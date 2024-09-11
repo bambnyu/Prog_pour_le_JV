@@ -1,0 +1,14 @@
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\bin\Debug\net8.0\TD1_partie1.exe
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\bin\Debug\net8.0\TD1_partie1.deps.json
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\bin\Debug\net8.0\TD1_partie1.runtimeconfig.json
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\bin\Debug\net8.0\TD1_partie1.dll
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\bin\Debug\net8.0\TD1_partie1.pdb
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.AssemblyInfoInputs.cache
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.AssemblyInfo.cs
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.csproj.CoreCompileInputs.cache
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.dll
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\refint\TD1_partie1.dll
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.pdb
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\TD1_partie1.genruntimeconfig.cache
+C:\Users\arozen\Desktop\Programmation pour le jeu vidéo\TD1\TD1_partie1\TD1_partie1\obj\Debug\net8.0\ref\TD1_partie1.dll

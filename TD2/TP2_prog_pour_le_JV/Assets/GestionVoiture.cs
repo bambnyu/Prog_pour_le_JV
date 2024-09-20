@@ -6,7 +6,7 @@ public class GestionVoiture : MonoBehaviour
 {
     private double essence;
     public GestionVoiture()
-    { //Constructeur
+    { 
         essence = 10;
         Debug.Log("Essence :" + essence);
         

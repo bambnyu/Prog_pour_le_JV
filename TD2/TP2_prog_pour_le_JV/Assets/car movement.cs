@@ -3,7 +3,7 @@ using UnityEngine;
 public class CarMovement : MonoBehaviour
 {
     public float speed = 5.0f;
-    public float rotationSpeed = 100.0f; // Nouvelle variable pour la vitesse de rotation
+    public float rotationSpeed = 100.0f;
     public float consommation = 0.01f;
     private GestionVoiture gestionVoiture;
 

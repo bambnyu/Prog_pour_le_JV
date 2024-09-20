@@ -9,7 +9,7 @@ public class cameraPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        decalage = new Vector3(-3, 6, -7);
+        decalage = new Vector3(15, 6, -2);
     }
 
     // Update is called once per frame

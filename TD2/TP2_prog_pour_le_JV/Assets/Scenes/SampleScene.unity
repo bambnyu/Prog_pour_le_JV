@@ -307,7 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe630b6cc55c0748be4ea7cb139b1b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 15
+  rotationSpeed: 100
   consommation: 0.0005
 --- !u!114 &91528765
 MonoBehaviour:
@@ -996,13 +997,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.17019667, y: -0, z: -0, w: 0.98541015}
-  m_LocalPosition: {x: -2.98, y: 6.13, z: -7.74}
+  m_LocalRotation: {x: -0, y: -0.551517, z: -0, w: 0.83416367}
+  m_LocalPosition: {x: 20.6, y: 5.9, z: -4.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 19.599, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -66.942, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,7 +1017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   car: {fileID: 91528759}
-  decalage: {x: -2.98, y: 6.13, z: -7.74}
+  decalage: {x: 0, y: 0, z: 0}
 --- !u!1001 &1160388050
 PrefabInstance:
   m_ObjectHideFlags: 0

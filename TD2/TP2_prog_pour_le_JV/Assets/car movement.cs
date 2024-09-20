@@ -16,25 +16,24 @@ public class CarMovement : MonoBehaviour
     {
         if (gestionVoiture.roule(consommation))
         {
-            // Déplacement de la voiture vers l'avant et l'arrière
-            if (Input.GetKey(KeyCode.UpArrow))
-            {
-                gameObject.transform.Translate(Vector3.forward * speed * Time.deltaTime);
-            }
+            //// Déplacement de la voiture vers l'avant et l'arrière
             if (Input.GetKey(KeyCode.DownArrow))
             {
                 gameObject.transform.Translate(Vector3.back * speed * Time.deltaTime);
             }
-
-            // Rotation de la voiture
-            if (Input.GetKey(KeyCode.LeftArrow))
+            else
             {
-                gameObject.transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
+                gameObject.transform.Translate(Vector3.forward * speed * Time.deltaTime);
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    gameObject.transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
+                }
+                else if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    gameObject.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+                }
             }
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                gameObject.transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
-            }
+            
         }
         else
         {

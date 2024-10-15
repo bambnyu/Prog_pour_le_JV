@@ -31,8 +31,7 @@ public class CycleVie : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
-            Destroy(coffrevoiture);
-
+            coffrevoiture = null;
         }
 
     }
@@ -40,7 +39,7 @@ public class CycleVie : MonoBehaviour
 }
 
 
-public class CoffreVoiture : MonoBehaviour
+public class CoffreVoiture 
 {
     private float X;
     //définition du constructeur par défaut
